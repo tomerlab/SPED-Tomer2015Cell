@@ -1,3 +1,5 @@
+Code related to SPED light sheet microscopy: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4775738/
+
 Deconvolution pipeline
 ======================
 Figure S5 presents the details of the pipeline.
@@ -6,8 +8,8 @@ Figure S5 presents the details of the pipeline.
 
 Empirical 3D system PSF is aligned (along the z-axis) with the raw data stack. 
 This is achieved by performing deconvolution (Richardson-Lucy) of a small number of 
-z-slices (typically separated by 100 µm) of data with a set of 2D PSFs sampled at 
-different depths (typically separated by 10 µm). The resulting deconvolved images 
+z-slices (typically separated by 100 Âµm) of data with a set of 2D PSFs sampled at 
+different depths (typically separated by 10 Âµm). The resulting deconvolved images 
 are analyzed (manually or automatically) for sharpness to determine the global 
 z-axis alignment of the system PSF and the raw data stack.
 
